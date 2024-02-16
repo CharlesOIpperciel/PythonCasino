@@ -6,7 +6,7 @@ A simple text-based Python Casino that offers various gambling games.
 1. Clone the repository to your local machine.
 2. Ensure you have Python installed on your system.
 3. Open your preferred IDE, then run the program.
-4. You could also open up a terminal and navigate to the main.py file and run ```python3 main.py```.
+4. You could also open up a terminal, navigate to the main.py file and run ```python3 main.py```.
 5. Once the script is running, follow the on-screen instructions to navigate the casino menu.
 
 ## Games
