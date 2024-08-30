@@ -184,6 +184,19 @@ def play_blackjack_again(balance):
             print('Invalid Choice.')
 
 
+def set_slotmachine_bet():
+    while True:
+        bet = input(f'\nHow much do you want to bet? ')
+        if bet.isdigit():
+            bet = int(bet)
+            if bet > 0:
+                break
+            else:
+                print("\nPlease enter a valid number.")
+        else:
+            print("\nPlease enter a valid number.")
+
+
 def start_slotmachine_spin():
     print('Not Implemented Yet')
 
@@ -249,6 +262,19 @@ def get_blackjack_rules():
 
 
 def get_slotmachine_rules():
+    print("\nSlot Machine Rules:")
+    print("1. The goal is to match 3 symbols in a row in a 9x9 grid (vertically, horizontally and diagonally.")
+    print("2. Each spin costs whatever you're willing to bet.")
+    print("3. The payout is based on the symbols matched and the rarity of them.")
+    print("4. The more you bet, the more you can win.")
+    print("5. The symbols are random and can be anything from fruits to numbers.\n")
+    print("Legend:")
+    print("1. Cherry: 2x")
+    print("2. Lemon: 3x")
+    print("3. Orange: 4x")
+    print("4. Apple: 5x")
+    print("5. Banana: 6x")
+    print("6. Grape: 7x")
     pass
 
 
@@ -269,7 +295,7 @@ def slot_machine():
             start_slotmachine_spin()
 
         elif choice == '2':
-            print('Not Implemented yet')
+            set_slotmachine_bet()
 
         elif choice == '3':
             get_slotmachine_rules()
