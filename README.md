@@ -23,4 +23,4 @@ A simple text-based Python Casino that offers various gambling games.
 
 ## Contact
 
-For questions, please contact: ippc2001@usherbrooke.ca 
+For questions, please contact: charlesolivieripperciel@gmail.com
