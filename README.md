@@ -1,6 +1,6 @@
 # Python Casino 🎰  
 
-A simple text-based **Blackjack** game built with Python.  
+A simple text-based **Blackjack** game built with Python. This game is no longer available on my Portfolio 2.0 as it's an older project.
 
 ## How to Run  
 
