@@ -1,26 +1,27 @@
-# Python Casino
+# Python Casino 🎰  
 
-A simple text-based Python Casino that offers various gambling games.
+A simple text-based **Blackjack** game built with Python.  
 
-## How to Run
-1. Clone the repository to your local machine.
-2. Ensure you have Python installed on your system.
-3. Open your preferred IDE, then run the program.
-4. You could also open up a terminal, navigate to the main.py file and run ```python3 main.py```.
-5. Once the script is running, follow the on-screen instructions to navigate the casino menu.
+## How to Run  
 
-## Games
+1. Clone the repository to your local machine:  
+   ```bash
+   git clone git@github.com:CharlesOIpperciel/PythonCasino.git
+   ```
+2. Ensure Python is installed on your system.  
+3. Open a terminal, navigate to the project directory, and run:  
+   ```bash
+   python3 main.py
+   ```
+4. Follow the on-screen instructions to navigate the casino menu.  
 
-1. **Blackjack**:
-   - Start the game by selecting "Blackjack" from the game selection menu.
-   - Set your bet amount and start your hand.
-   - Follow the prompts to either hit or stay.
-   - Beat the dealer's hand without going over 21 to win!
+## How to Play 🃏  
 
-2. **Slot Machine**:
-   - Not implemented yet
+- Select **"Blackjack"** from the game menu.  
+- Place your bet and start the hand.  
+- Choose to **hit** or **stay** based on your cards.  
+- Beat the dealer without exceeding **21** to win!  
 
+## Contact  
 
-## Contact
-
-For questions, please contact: charlesolivieripperciel@gmail.com
+For any questions, feel free to reach out: **charlesolivieripperciel@gmail.com**  
